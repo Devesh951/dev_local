@@ -7,7 +7,7 @@ pipeline {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "54.82.50.194:8081"           // ip need to according you machine
-        NEXUS_REPOSITORY = "devesh"   // repository what you have created
+        NEXUS_REPOSITORY = "maven-devesh"   // repository what you have created
         NEXUS_CREDENTIAL_ID = "nexus-credentials" //jenkins user-id created by you
     }
     stages {
